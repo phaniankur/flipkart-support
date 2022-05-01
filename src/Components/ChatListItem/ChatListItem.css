@@ -1,0 +1,31 @@
+.container__main{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    cursor: pointer;
+    /* */
+}
+.selected__main{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+}
+.flex--left{
+    display: flex;
+}
+.prod--img{
+    display: flex;
+    justify-content: center;
+    min-width: 6rem;
+    margin: 1rem 0;
+}
+.prod--img img{
+    width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+}
+.title--container{
+    text-align: left;
+}
